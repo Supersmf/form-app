@@ -1,4 +1,5 @@
 {
+  "homepage": "http://supersmf.github.io/form-app",
   "name": "form-app",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,6 +46,7 @@
     "@types/react-dom": "^16.9.6",
     "@types/react-transition-group": "^4.2.4",
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.19.0"
+    "eslint-plugin-react": "^7.19.0",
+    "gh-pages": "^2.2.0"
   }
 }
