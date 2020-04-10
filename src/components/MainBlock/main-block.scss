@@ -1,0 +1,51 @@
+@import '../../common/styles/colors';
+
+.main-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 200px;
+  height: 80px;
+  padding: 10px;
+
+  border: 2px solid $secondary-color;
+  background-color: $white-color;
+
+  & > * {
+    width: 100%;
+    margin: 10px;
+  }
+
+  &__button-bar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    & button:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-block {
+    flex: 1;
+    flex-wrap: wrap;
+
+    &__button-bar {
+      justify-content: flex-end;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .select-field,
+  .text-field {
+    flex: none;
+  }
+}

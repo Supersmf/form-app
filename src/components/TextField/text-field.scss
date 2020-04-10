@@ -1,0 +1,18 @@
+@import '../../common/styles/colors';
+
+.text-field {
+  flex: 1;
+
+  width: 100%;
+  min-width: 120px;
+  height: 40px;
+  padding: 0 6px;
+
+  color: $black-color;
+  border: 1px solid $secondary-color;
+  border-radius: 5px;
+
+  &:focus::placeholder {
+    color: transparent;
+  }
+}

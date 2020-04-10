@@ -1,0 +1,30 @@
+@import '../../common/styles/colors';
+
+.button {
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  padding: 0 10px;
+
+  color: $black-color;
+  border: 2px solid $primary-color;
+  border-radius: 6px;
+  background-color: $white-color;
+
+  &:hover {
+    transform: scale(1.012);
+
+    box-shadow: 0 1px 6px 0 rgba($black-color, 0.3);
+  }
+
+  &:active {
+    opacity: 0.5;
+    color: $white-color;
+    background-color: $primary-color;
+  }
+
+  &__primary {
+    color: $white-color;
+    background-color: $primary-color;
+  }
+}

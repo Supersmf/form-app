@@ -1,0 +1,13 @@
+.arrow {
+  display: flex;
+
+  width: 16px;
+  height: 6px;
+
+  transition: all 0.3s;
+  transform: translateY(-50%) rotate(0deg);
+
+  &_down {
+    transform: translateY(-50%) translateX(-25%) rotate(180deg);
+  }
+}

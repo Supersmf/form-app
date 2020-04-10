@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  padding: 0 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  &__title {
+    padding: 6px 0;
+
+    font-size: 24px;
+  }
+
+  &__header {
+    margin-bottom: 20px;
+  }
+}
