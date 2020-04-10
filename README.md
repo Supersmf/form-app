@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Link to GitHub pages: <a href="https://supersmf.github.io/form-app/">Form App</a>
+## <a href="https://supersmf.github.io/form-app/">Form App</a>
 
 ## Available Scripts
 
